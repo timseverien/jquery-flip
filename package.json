@@ -1,0 +1,27 @@
+{
+  "name": "jquery-flip",
+  "description": "jQuery Flip (╯°□°）╯︵ ┻━┻",
+  "version": "0.0.1",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-uglify": "^1.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timseverien/jquery-flip.git"
+  },
+  "keywords": [
+    "jquery",
+    "flip",
+    "table"
+  ],
+  "author": "Tim Severien <timseverien@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timseverien/jquery-flip/issues"
+  },
+  "homepage": "https://github.com/timseverien/jquery-flip"
+}
