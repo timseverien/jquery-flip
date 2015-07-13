@@ -14,7 +14,6 @@
 
     /**
      * @function
-     * @private
      * @param {jQuery} $src
      * @param {jQuery} $dest
      */
@@ -24,18 +23,22 @@
         });
     }
 
+    /**
+     * @function
+     * @param {jQuery} $src
+     * @param {jQuery} $dest
+     */
     function moveFlippedSection($src, $dest) {
-        $src.each(function() {
+        $src.children().each(function() {
             var $row = $(this);
             moveChildrenReversed($row, $row);
         });
 
-        moveChildrenReversed($src, $dst);
+        moveChildrenReversed($src, $dest);
     }
 
     /**
      * @function
-     * @private
      * @param {jQuery} $element
      */
     function flipTable($element) {
