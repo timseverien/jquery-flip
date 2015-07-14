@@ -1,7 +1,36 @@
 jQuery Flip (╯°□°）╯︵ ┻━┻
 =========================
 
-jQuery plugin to flip tables.
+jQuery plugin to flip tables. Literally.
+
+The following HTML table:
+```html
+<table>
+    <tr>
+        <td>a</td>
+        <td>b</td>
+    </tr>
+    <tr>
+        <td>c</td>
+        <td>d</td>
+    </tr>
+</table>
+```
+
+Would turn into:
+
+```html
+<table>
+    <tr>
+        <td>d</td>
+        <td>c</td>
+    </tr>
+    <tr>
+        <td>b</td>
+        <td>a</td>
+    </tr>
+</table>
+```
 
 ## Installation
 
